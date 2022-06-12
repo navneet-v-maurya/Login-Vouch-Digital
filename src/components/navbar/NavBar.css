@@ -1,0 +1,28 @@
+.ms-auto > :nth-child(1) {
+  background-color: rgba(2, 48, 71, 255);
+  font-size: x-small;
+  font-family: Inter;
+  margin: 5px;
+  border-radius: 2px;
+  padding: 6px;
+  width: 100px;
+}
+
+.ms-auto > :nth-child(2) {
+  background-color: rgba(251, 133, 0, 255);
+  font-size: x-small;
+  font-family: Inter;
+  margin: 5px;
+  border-radius: 2px;
+  padding: 6px;
+  width: 100px;
+}
+
+@media (max-width: 480px) {
+  .ms-auto > :nth-child(1) {
+    opacity: 0;
+  }
+  .ms-auto > :nth-child(2) {
+    opacity: 0;
+  }
+}

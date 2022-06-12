@@ -1,0 +1,9 @@
+.mb-3 {
+  font-size: 12px;
+  padding: 2px 5px;
+  font-family: Inter;
+}
+.mb-3 > :nth-child(1) {
+  font-size: 12px;
+  font-family: Inter;
+}
